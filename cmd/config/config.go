@@ -7,6 +7,7 @@ import (
 )
 
 type appConfig struct {
+	logLevel string `mapstructure: "log_level"`
 }
 
 // Config contain app configuration
